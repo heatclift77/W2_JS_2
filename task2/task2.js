@@ -9,7 +9,7 @@ const name = [
 function searchingName(key, num, callback){
     callback(key, num)
 }
-searchingName("amanda", 10, function (key, num){
+searchingName("da", 10, function (key, num){
     if(num < 20){
         if(key.length < 15){
             let count = 1;
